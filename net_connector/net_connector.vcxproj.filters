@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="net_connector_global.cpp" />
+    <ClCompile Include="src\net_connector.cpp" />
+    <ClCompile Include="src\wifi\wifi_manager.cpp">
+      <Filter>net\wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wifi\wifi_xml_util.cpp">
+      <Filter>net\wifi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\string_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\chap_ms.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\eap.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\ethernet_manager.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\peap.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\pppcrypt.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\ppp-crypto.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\ppp-des.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\ppp-md4.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\ppp-md5.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\ppp-sha1.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\func_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="public\protocol\internet_protocol_packet.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\tls.cpp">
+      <Filter>net\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\net_card_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="public\json\cJSON.c">
+      <Filter>public\json</Filter>
+    </ClCompile>
+    <ClCompile Include="public\json\CJsonObject.cpp">
+      <Filter>public\json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\net_connector.h" />
+    <ClInclude Include="src\wifi\wifi_xml_util.h">
+      <Filter>net\wifi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\string_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\chap_ms.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\ethernet_manager.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\peap.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\pppcrypt.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\ppp-crypto.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\ppp-crypto-priv.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\func_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\global.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\internet_manager.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="public\protocol\internet_protocol_packet.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\tls.h">
+      <Filter>net\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="net_connector_define.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="net_connector_global.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\net_card_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="public\json\cJSON.h">
+      <Filter>public\json</Filter>
+    </ClInclude>
+    <ClInclude Include="public\json\CJsonObject.hpp">
+      <Filter>public\json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\wifi\wifi_manager.h">
+      <Filter>net\wifi</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ethernet\eap.h">
+      <Filter>net\ethernet</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="public">
+      <UniqueIdentifier>{5a20fcd7-703c-45fb-8ca1-eb8a98f45d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\json">
+      <UniqueIdentifier>{fea068f5-049b-411d-b24d-ac5653c3b602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{2129279c-2237-4767-8e9f-a14a1a77b2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{314a95af-6008-46d6-94ab-7eeb5f104150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\ethernet">
+      <UniqueIdentifier>{b1722699-43c0-4077-afd7-9d96d8bf55b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\wifi">
+      <UniqueIdentifier>{27734114-559b-4d4c-b08b-f1827f5ad97c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="net_connector.def" />
+  </ItemGroup>
+</Project>

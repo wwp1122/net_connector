@@ -1,0 +1,9 @@
+LIBRARY "net_connector.lib"
+EXPORTS
+NetConnectorWifiInit							@1
+NetConnectorWifiDeInit							@2
+NetConnectorEthernetInit						@3
+NetConnectorEthernetDeInit						@4
+NetConnectorNetConnect							@5
+NetConnectorNetDisconnect						@6
+NetConnectorSetNetEventCallBack					@7
