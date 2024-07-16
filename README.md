@@ -44,14 +44,8 @@ dll_caller：
 
 # 效果
 
-![image-20240715161740221](C:\Users\wangpeng\AppData\Roaming\Typora\typora-user-images\image-20240715161740221.png)
-
-
-
-
-
-![image-20240715152349074](C:\Users\wangpeng\AppData\Roaming\Typora\typora-user-images\image-20240715152349074.png)
-
+![alt text](image-20240715161740221.png)
+![alt text](image-20240715152349074.png)
 
 
 # 文档
